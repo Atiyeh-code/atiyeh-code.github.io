@@ -1,3 +1,3 @@
 # Example Repository Portfolio
 
-Learning V1
+Learning Portfolio V1
