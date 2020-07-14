@@ -1,0 +1,199 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    height: 100%;
+    margin: 0;
+    color: black;
+}
+
+.container {
+    position: relative;
+}
+
+/* Centered text */
+.head-text {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: black;
+    line-height: 90%;
+  }  
+
+.head-text h1{
+    font-size: 40px;
+}
+
+.head-text h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.head-text h3{
+    font-size: 20px;
+}
+/* Top left logo */
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 16px; 
+}
+
+ /* social icons */ 
+  .social {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+} 
+
+/* Menu navigation */
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+  .menu ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0
+}
+
+  .menu li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+  .menu a:hover {
+    color: white;
+}
+
+/* About me section */
+.AboutContainer {
+    padding: 50px 40px 80px;
+    width: 1300px; 
+    display: flex; 
+    align-content: center;   
+}  
+
+.AboutContainer .imgAbout {
+   object-fit: contain;
+   align-self: flex-start;
+   padding-right: 90px;
+   padding-left: 100px;
+   padding-top: 50px;
+}
+
+.AboutContainer .textAbout {
+    font-size: large;
+    line-height: 30px;
+    }
+ 
+/* Work Section */   
+.WorkContainer {
+    padding: 50px 70px 120px;
+    width: 1300px; 
+    display: flex; 
+    align-items: center; 
+    background-color: #00A4EF;  
+    justify-content: space-evenly;
+} 
+
+.WorkContainer .imgWork{
+    border: 10px solid #ffc305;
+    border-radius: 50%;
+    }
+
+.WorkContainer .headingWork {
+    padding-left: 30px;
+}
+
+.WorkContainer .headingWork{
+    padding-left: 95px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+}
+
+/* Contact me page */
+.GetInTouch {
+    padding: 150px; 
+    background-color: #ffc305; 
+    text-align: center;  
+} 
+
+/* contact form */
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #ffc305;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #00A4EF;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #FA4224;
+    background-color: #FA4224;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
+}
+
+ /* Footer */
+footer {
+    background-color: #ffc305;
+    border-spacing: 20px;
+    padding: 20px;
+    text-align: center;   
+    height: 150px; 
+}
+
+/* @media screen and (max-width: 500px) {
+    .WorkContent {
+      width: 900 px;
+    }
+  } */
