@@ -119,10 +119,6 @@ body {
     border-radius: 50%;
     }
 
-/* .WorkContainer .headingWork {
-    padding-left: 30px;
-} */
-
 .WorkContainer .headingWork{
     padding-left: 95px;
     padding-top: 50px;
@@ -197,18 +193,10 @@ footer {
 @media screen and (max-width: 600px) {
     .menu li {
         font-size: 16px;
-        padding: 15px 5 px;
+        padding: 15px 5px;
     }
     .menu li a {
         display: block;
-    }
-
-    /* mobile menue */
-    .menu {
-     display:flex;  
-     flex-wrap: wrap; 
-     justify-content: space-between;
-     align-items: center;
     }
 
     .WorkContainer{
@@ -216,14 +204,33 @@ footer {
       padding-bottom: 100px;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+
+    .WorkContainer .imgWork{
+        width: 200px;
+        height: 200px;
+    }
+
+    .WorkContainer .headingWork{
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 
     .AboutContainer{
         flex-direction: column;
         padding-top: 200 px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     } 
     .AboutContainer .imgAbout {
         align-self: center;
+        padding-bottom: 5px;
+    }
+    .AboutContainer .textAbout{
+        padding: 20px 50px 80px;
     }
 
     .head-text h1{
@@ -235,32 +242,42 @@ footer {
         font-weight: bold;
         color: white;
     }
- 
-  .AboutContainer .textAbout{
-      padding: 20px 50px 80px;
-  }
-  .WorkContainer .imgWork{
-    width: 200px;
-    height: 200px;
-}
+
+  
 }
 @media screen and (max-width: 1000px) {
 
     .WorkContainer{
         flex-direction: column;
-        padding-bottom: 200px;
-        padding-top: 120px;
+        padding-bottom: 300px;
+        padding-top: 250px;
         align-items: center;
         justify-content: center;
-
+        text-align: center;
       }
+      .WorkContainer .imgWork{
+        width: 200px;
+        height: 200px;
+    }
+    .WorkContainer .headingWork{
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .AboutContainer .textAbout{
+        padding: 20px 50px 90px;
+}
   
       .AboutContainer{
           flex-direction: column;
           padding-top: 200 px;
+          align-items: center;
+        justify-content: center;
+        text-align: center;
       } 
       .AboutContainer .imgAbout {
           align-self: center;
+          padding-bottom: 5px;
       }
   
       .head-text h1 {
@@ -276,7 +293,4 @@ footer {
       .head-text h3 {
           font-size: 25px;
     }  
-    .AboutContainer .textAbout{
-        padding: 20px 50px 80px;
-}
 }
