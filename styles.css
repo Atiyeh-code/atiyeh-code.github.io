@@ -119,10 +119,6 @@ body {
     border-radius: 50%;
     }
 
-.WorkContainer .headingWork {
-    padding-left: 30px;
-}
-
 .WorkContainer .headingWork{
     padding-left: 95px;
     padding-top: 50px;
@@ -194,35 +190,125 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+.container-project {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
 
+.container-presentation {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
+.container-publication {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+        /* social icons */ 
+  .social {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+} 
+    /* Menu navigation */
+.menu {    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 5px;
+}   
     .WorkContainer{
       flex-direction: column;
-      }
+      padding-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .WorkContainer .imgWork{
+        width: 200px;
+        height: 200px;
+    }
+
+    .WorkContainer .headingWork{
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
     .AboutContainer{
         flex-direction: column;
+        padding-top: 200 px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     } 
     .AboutContainer .imgAbout {
         align-self: center;
+        padding-bottom: 5px;
+    }
+    .AboutContainer .textAbout{
+        padding: 20px 40px 80px;
     }
 
-    .head-text h1 {
-        font-size: 30px;
+    .head-text {
+        font-size: 2px;
+        padding-top: 30px;
     }
-
-    .head-text h2{
-        font-size: 45px;
-        font-weight: bold;
-        color: white;
-    }
-
-    .head-text h3 {
-        font-size: 25px;
-  }  
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
-    .WorkContainer {
-    flex-direction: column;
+     /* social icons */ 
+  .social {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+}     
+    .WorkContainer{
+        flex-direction: column;
+        padding-bottom: 300px;
+        padding-top: 250px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .WorkContainer .imgWork{
+        width: 200px;
+        height: 200px;
     }
+    .WorkContainer .headingWork{
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .AboutContainer .textAbout{
+        padding: 20px 50px 90px;
+}
+  
+      .AboutContainer{
+          flex-direction: column;
+          padding-top: 200 px;
+          align-items: center;
+        justify-content: center;
+        text-align: center;
+      } 
+      .AboutContainer .imgAbout {
+          align-self: center;
+          padding-bottom: 5px;
+      }
+  
+      .head-text h1 {
+          font-size: 25px;
+      }
+  
+      .head-text h2{
+          font-size: 30px;
+          font-weight: bold;
+          color: white;
+      }
+  
+      .head-text h3 {
+          font-size: 25px;
+    }  
 }
