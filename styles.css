@@ -190,15 +190,34 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-    .menu li {
-        font-size: 16px;
-        padding: 15px 5px;
-    }
-    .menu li a {
-        display: block;
-    }
+.container-project {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
 
+.container-presentation {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
+.container-publication {
+    background-color: #ffc305;
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+        /* social icons */ 
+  .social {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+} 
+    /* Menu navigation */
+.menu {    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 5px;
+}   
     .WorkContainer{
       flex-direction: column;
       padding-bottom: 100px;
@@ -230,23 +249,22 @@ footer {
         padding-bottom: 5px;
     }
     .AboutContainer .textAbout{
-        padding: 20px 50px 80px;
+        padding: 20px 40px 80px;
     }
 
-    .head-text h1{
-        display: block;
+    .head-text {
+        font-size: 2px;
+        padding-top: 30px;
     }
-
-    .head-text h2{
-        font-size: 30px;
-        font-weight: bold;
-        color: white;
-    }
-
-  
 }
 @media screen and (max-width: 1000px) {
 
+     /* social icons */ 
+  .social {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+}     
     .WorkContainer{
         flex-direction: column;
         padding-bottom: 300px;
